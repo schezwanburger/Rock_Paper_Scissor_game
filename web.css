@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(109, 182, 213);
+}
+button{  
+  background-color: transparent;
+  border: none;
+  margin-right: 15px;
+
+}
+.movepng{
+height: 100px;
+width: 100px;
+border-radius: 50px ;
+border: 3px solid;
+border-color: black;
+}
+.button1{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}
+.heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+h1{
+  color: darkblue;
+}
+.scr{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  color: blue;
+}
+.movepng1{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border:1px solid black;
+  
+}
+button img:hover{
+  height: 120px;
+  width: 120px;
+}
+.subs{
+  height: 60px;
+width: 80px;
+border-radius: 10px ;
+border: 3px solid;
+border-color: black;
+background-color: yellow;
+}
+.subs:hover{
+  height: 70px;
+  width: 100px;
+}
+.Auto{
+  height: 60px;
+  width: 88px;
+  border-radius: 10px ;
+  border: 3px solid;
+  border-color: black;
+  background-color: yellow;
+}
+.Auto:hover{
+  height: 70px;
+  width: 100px;
+}
+.b4{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}

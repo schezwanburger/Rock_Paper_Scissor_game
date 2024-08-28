@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSOR</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>ROCK PAPER SCISSORS</h1> 
+            </div>
+          
+          <div class="button1">
+            <div class="b1">
+          <button  onclick="
+        playgame('ROCK'); "><img class="movepng" src="ROCK.png" alt="ROCK"></button>
+              </div>
+            <div class="b2">
+          <button onclick="
+            playgame('PAPER');
+          "><img class="movepng" src="PAPER.png" alt="PAPER"></button>
+              </div>
+            <div class="b3">
+          <button onclick="
+        playgame('SCISSOR');
+        "><img class="movepng" src="SCISSOR.png" alt="SCISSORS"></button>
+              </div>
+            </div>
+            <div class="scr">
+            <p class="gamescore"></p> 
+            <p class="ymove"></p>
+            <p class="resultt"></p>
+              </div>
+              <div class="b4">
+                <button 
+                  class="subs"
+                  onclick="
+                  score.wins=0;
+                  score.losses=0;
+                  score.ties=0;
+                  localStorage.removeItem('score');
+                  alert('Score is Resetted');
+                  updatescore();
+                "><b>RESET</b></button>
+                <button class="Auto" onclick="autoplay();"><b>AUTOPLAY</b></button>
+              </div>
+              <script src="web.js"></script>
+                
+</body>
+</html>
